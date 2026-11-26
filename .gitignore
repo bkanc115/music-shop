@@ -1,0 +1,22 @@
+# Виртуальное окружение и кэш Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Секреты и локальные настройки 
+.env
+deploy/secrets.env
+deploy/keys/
+
+# Логи и локальные БД
+logs/
+*.log
+*.db
+
+# Файлы IDE и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
